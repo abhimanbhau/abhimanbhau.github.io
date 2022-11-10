@@ -1,7 +1,7 @@
 ---
 title: Minecraft on M1 Pro Macbook Pro with 16 core GPU
 date: 2022-11-09 22:00:00 -0600
-categories: [minecraft, gaming, macbook, m1 pro, m1 mac, m1 chip, mac gaming, m1 pro gaming performance]
+categories: [gaming]
 tags: [minecraft, gaming, macbook, m1 pro, m1 mac, m1 chip, mac gaming, m1 pro gaming performance]
 toc: true
 seo:
