@@ -144,6 +144,9 @@ algolia:
   index_name: search_index
   search_only_api_key: 8d98604302ea5d5139721fcab4905abf # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+  files_to_exclude:
+    - _pages/cookies.md
+    - _pages/privacy.md
 
 # SEO Related
 google_site_verification: "6-c8OSIjGAOgDoQIHcq9ZS4zSOjTARmVecnl8UMZFzo"
