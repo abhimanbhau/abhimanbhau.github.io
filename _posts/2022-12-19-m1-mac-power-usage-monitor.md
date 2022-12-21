@@ -7,18 +7,18 @@ toc: true
 seo:
   date_modified: 2022-12-19 22:00:00 -0600
 gallery:
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584102/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_o9jaze.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584102/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_o9jaze.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_ics576.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_ics576.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_a8vxtd.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_a8vxtd.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_uj2zlc.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_uj2zlc.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584098/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_rz47r5.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584098/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_rz47r5.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584100/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_fnmx0n.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1671584100/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_fnmx0n.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590278/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_cshxww.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590278/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_cshxww.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_zjymrc.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_zjymrc.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_xvrzpp.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_xvrzpp.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_kvl0vu.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_kvl0vu.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_nxtvfv.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_nxtvfv.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_gsi8t5.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_gsi8t5.png
 
 ---
 
@@ -103,8 +103,8 @@ If InfluxDB welcome page loads up, congratulations everything is setup properly.
 
 After the setup is completed and verified to be working please setup a API key that we will be using in the Python wrapper program to push data into the InfluxDB storage.
 
-![Login](https://res.cloudinary.com/abemurica/image/upload/v1671584102/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_o9jaze.png)
-![Welcome](https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_ics576.png)
+![Login](https://res.cloudinary.com/abemurica/image/upload/v1671590278/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_cshxww.png)
+![Welcome](https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.30_PM_zjymrc.png)
 
 ### Python3 influxdb-client library
 We need to push the metrics we get from the powermetrics tool into time series database. For this we make use of the programmatic API provided by the InfluxDB. Specifically the example I will be providing uses Python API. However you can use any programming language you are familiar with. InfluxDB console also provides boilerplate code to get started in multiple popular programming languages. Please note that there are pre-requisites to writing code such as making sure the libraries for influxdb to be installed. 
@@ -201,7 +201,7 @@ Now that we have data flowing into the InfluxDB time series database, we need to
 4. Now that we have three gauges added, we need to define the data to be used by the gauges.
 5. Values that are stored in the time series database are stored in mW. I find it more intuitive to use Watts which makes it easier to compare the data with other machines online. 
 6. Edit each gauge by clicking on the Settings(Cog) button and clicking Configure. This will open the Query window. Query is used to pull data from the time series database.
-![gauge](https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_a8vxtd.png)
+![gauge](https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.46.03_PM_xvrzpp.png)
 
 For each of the three gauges use following queries. Make sure to verify bucket name in the query and change it appropriately. I have named my bucket name as 'mac-metrics-tsd'.
 
@@ -242,12 +242,12 @@ from(bucket: "mac-metrics-tsd")
 Save the queries and reload the page. You should see the gauges updating values in realtime. You can set the auto-refresh option to indefinite and 10s. I kept it running while I compiled a program, mac was pseudo-idle and running a GPU workload. Following are the results.
 
 Idle:
-![idle](https://res.cloudinary.com/abemurica/image/upload/v1671584097/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_uj2zlc.png)
+![idle](https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.43.56_PM_kvl0vu.png)
 
 Code compilation:
-![code](https://res.cloudinary.com/abemurica/image/upload/v1671584098/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_rz47r5.png)
+![code](https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.48.18_PM_nxtvfv.png)
 
 Video transcode:
-![video](https://res.cloudinary.com/abemurica/image/upload/v1671584100/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_fnmx0n.png)
+![video](https://res.cloudinary.com/abemurica/image/upload/v1671590277/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_gsi8t5.png)
 
 {% include gallery caption="Power consumption/efficiency monitoring on M1 Mac" %}

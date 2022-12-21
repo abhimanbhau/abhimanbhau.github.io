@@ -7,16 +7,16 @@ toc: true
 seo:
   date_modified: 2022-11-09 22:00:00 -0600
 gallery:
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.07.06_n0zqlc.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.07.06_n0zqlc.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.23.42_moplsf.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.23.42_moplsf.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.04.19_ug5017.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.04.19_ug5017.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.10.12_bfwzj1.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.10.12_bfwzj1.png
-  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1668060384/minecraft_mac/2022-11-09_18.18.38_hfu01c.png
-    url: https://res.cloudinary.com/abemurica/image/upload/v1668060384/minecraft_mac/2022-11-09_18.18.38_hfu01c.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.23.42_grst3f.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.23.42_grst3f.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.04.19_ddnicn.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.04.19_ddnicn.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.10.12_ys4h8q.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.10.12_ys4h8q.png
+  - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png
+    url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png
 
 ---
 
@@ -48,7 +48,7 @@ I copied over my existing world to the new Mac. I connected the Mac to my QHD (2
 
 Only settings I modified were to enable fullscreen and increase the visible chunk size to 20. I was surprised to see the results. I was getting consistent ~60fps with some drops to ~50fps. 
 
-![Minecraft default gameplay QHD](https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.07.06_n0zqlc.png "Stock gameplay")
+![Minecraft default gameplay QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png "Stock gameplay")
 
 > Note: bringing up f3 debug menu drops the fps.
 
@@ -83,13 +83,13 @@ I did not tweak any settings for any off the mods.
 __Results are mindblowing__
 
 These are the results on QHD monitor. Same setup from stock gameplay test.
-![QHD after mods](https://res.cloudinary.com/abemurica/image/upload/v1668060383/minecraft_mac/2022-11-09_18.23.42_moplsf.png "QHD modded fps")
+![QHD after mods](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.23.42_grst3f.png "QHD modded fps")
 
 ~160 fps up from ~55 fps, almost 200% increase in performance.
 
 I tried the same test on built-in mac screen with scaled resolution of 1920*1200. Lower resolution obviously resulted in increased fps. 
 
-![HD+ result](https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.04.19_ug5017.png "HD+ results")
+![HD+ result](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.04.19_ddnicn.png "HD+ results")
 
 Again absolutely impressive results. almost ~200 fps.
 
@@ -98,7 +98,7 @@ Again absolutely impressive results. almost ~200 fps.
 I had huge mob farm near where my player character is standing in the screenshot. I went in a underground mine and I was able to get consistent 300+ fps. 
 Here in deep dark, fps averaged about 470. These are phenomenal results for a portable dev machine and overkill for a casual minecrafter like me.
 
-![test in deep dark](https://res.cloudinary.com/abemurica/image/upload/v1668060382/minecraft_mac/2022-11-09_21.10.12_bfwzj1.png "deep dark fps")
+![test in deep dark](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.10.12_ys4h8q.png "deep dark fps")
 
 ### Shaders in Fabric
 
@@ -110,7 +110,7 @@ I found Complementary shaders to be good balance between quality and performance
 
 I ran complementary shaders on their highest settings and QHD resolution. These are the results
 
-![Shader on QHD](https://res.cloudinary.com/abemurica/image/upload/v1668060384/minecraft_mac/2022-11-09_18.18.38_hfu01c.png "Shader on QHD")
+![Shader on QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png "Shader on QHD")
 
 
 
