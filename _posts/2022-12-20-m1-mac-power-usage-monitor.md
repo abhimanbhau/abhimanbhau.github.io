@@ -5,7 +5,7 @@ categories: [mac]
 tags: [macbook, m1 pro, m1 mac, m1 chip, macos, m1, macbook pro, m1 arm mac, m1 mac power usage, InfluxDB, powermetrics mac]
 toc: true
 seo:
-  date_modified: 2022-12-20 22:00:00 -0600
+  date_modified: 2022-12-19 22:00:00 -0600
 gallery:
   - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671584102/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_o9jaze.png
     url: https://res.cloudinary.com/abemurica/image/upload/v1671584102/mac_power_monitor/Screen_Shot_2022-12-20_at_4.41.17_PM_o9jaze.png
@@ -21,7 +21,6 @@ gallery:
     url: https://res.cloudinary.com/abemurica/image/upload/v1671584100/mac_power_monitor/Screen_Shot_2022-12-20_at_4.53.55_PM_fnmx0n.png
 
 ---
-
 
 # Monitoring power usage and efficiency of M1 Mac's CPU/GPU
 
