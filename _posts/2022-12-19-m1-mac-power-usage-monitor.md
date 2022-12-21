@@ -1,6 +1,6 @@
 ---
 title: Monitoring power usage and efficiency of M1 Mac CPU/GPU
-date: 2022-12-20 22:00:00 -0600
+date: 2022-12-19 22:00:00 -0600
 categories: [mac]
 tags: [macbook, m1 pro, m1 mac, m1 chip, macos, m1, macbook pro, m1 arm mac, m1 mac power usage, InfluxDB, powermetrics mac]
 toc: true
