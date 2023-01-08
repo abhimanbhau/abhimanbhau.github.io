@@ -5,7 +5,7 @@ categories: [gaming]
 tags: [minecraft, gaming, macbook, m1 pro, m1 mac, m1 chip, mac gaming, m1 pro gaming performance, increase m1 mac fps, increase minecraft fps m1 macbook]
 toc: true
 seo:
-  date_modified: 2023-01-06 22:00:00 -0600
+  date_modified: 2023-01-07 22:00:00 -0600
 gallery:
   - image_path: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png
     url: https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png
@@ -24,7 +24,7 @@ gallery:
 
 ### Installation on M1 mac
 
-Installation was as simple as downloading the launcher from Mojang. I decided to use the microsoft-openjdk JDK. This JDK can be installed via brew. Refer [guide for installing brew on mac](https://abhimanbhau.github.io/aws/macos/setup-oh-my-zsh-macos/). Installed JDK version was openjdk 17.0.5 2022-10-18 LTS.
+To install the game, I downloaded the launcher from Mojang. I also chose to use the Microsoft-openjdk JDK, which can be installed through brew (refer to the guide at the provided link for instructions on how to install brew on a Mac). The installed JDK version was openjdk 17.0.5 2022-10-18 LTS. [guide for installing brew on mac](https://abhimanbhau.github.io/aws/macos/setup-oh-my-zsh-macos/).
 
 Use following JVM flags in the launcher. 
 
@@ -32,11 +32,11 @@ Use following JVM flags in the launcher.
 -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:AllocatePrefetchStyle=3 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:G1HeapRegionSize=32M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:GCTimeRatio=99 -Xmx14g -Xms14g
 ```
 
-Most important flag is the __+UseG1GC__. This flag enables the high performant G1 garbage collector.
+The most important flag to consider is "+UseG1GC", as it enables the high-performing G1 garbage collector. 
 
-I copied over my existing world to the new Mac. I connected the Mac to my QHD (2560*1440) Samsung Odyssey G5 monitor. I made it the main monitor and had debug console open on the Macbook's built-in display. 
+I transferred my existing game world to the new Mac and connected it to a QHD Samsung Odyssey G5 monitor, making it the main display while keeping the debug console open on the Macbook's built-in screen. The only changes I made to the settings were enabling fullscreen mode and increasing the visible chunk size to 20.
 
-Only settings I modified were to enable fullscreen and increase the visible chunk size to 20. I was surprised to see the results. I was getting consistent ~60fps with some drops to ~50fps. 
+I was pleasantly surprised to see that the game consistently ran at around 60fps, with some slight dips to 50fps.
 
 ![Minecraft default gameplay QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.07.06_toelqf.png "Stock gameplay")
 
@@ -81,24 +81,19 @@ I tried the same test on built-in mac screen with scaled resolution of 1920*1200
 
 ![HD+ result](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.04.19_ddnicn.png "HD+ results")
 
-Again absolutely impressive results. almost ~200 fps.
+The performance was once again impressive, with an average of nearly 200 fps while playing Minecraft on a laptop primarily used for development rather than gaming. 
 
-200 fps playing Minecraft on a laptop primarily meant for development and not gaming. More important, I unplugged the laptop and fps did not change because ARM M1 Pro chip consumes way less power compared to Windows laptops whose performance is gimped as soon as they are unplugged. 
+Even more impressive, the fps remained stable even when the laptop was unplugged, thanks to the power-efficient ARM M1 Pro chip. While exploring a large mob farm and underground mine, I consistently achieved fps of 300+ and 470, respectively. 
 
-I had huge mob farm near where my player character is standing in the screenshot. I went in a underground mine and I was able to get consistent 300+ fps. 
-Here in deep dark, fps averaged about 470. These are phenomenal results for a portable dev machine and overkill for a casual minecrafter like me.
+These are exceptional results for a portable development machine and more than sufficient for a casual Minecraft player like myself.
 
 ![test in deep dark](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_21.10.12_ys4h8q.png "deep dark fps")
 
 ### Shaders in Fabric
 
-Finally I had to try shaders. 
+I was eager to try out shaders, and was pleased to find that most Optifine shaders worked well with the Iris/Sodium combination. However, I noticed that the debug console was filled with errors about unimplemented shader methods, which caused the rendering to fall back to software and resulted in a significant decrease in performance.
 
-I most of the optifine shaders works as it is on iris/Sodium combo. All the well known shaders worked without a flaaw on Mac but debug console was filled with unimplemented shader methods errors. In those cases the rendering fell back onto software leading to massive performance hit. 
-
-I found Complementary shaders to be good balance between quality and performance.
-
-I ran complementary shaders on their highest settings and QHD resolution. These are the results
+After experimenting with different shaders, I found Complementary shaders to be a good balance between quality and performance. I tested these shaders at their highest settings and with a QHD resolution, and the results were as follows.
 
 ![Shader on QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png "Shader on QHD")
 

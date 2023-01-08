@@ -5,10 +5,13 @@ categories: [github]
 tags: [jekyll, github, jekyll blog, algolia search setup jekyll, jekyll github pages, minimal mistakes algolia]
 toc: true
 seo:
-  date_modified: 2023-01-07 16:00:00 -0600
+  date_modified: 2023-01-07 21:00:00 -0600
 ---
 
 ## Setup Algolia search on GitHub for a Jekyll blog
+
+### Why use Jekyll
+There are several benefits to using Jekyll for building websites, such as its templating language, quick development process, and ease of maintenance. If you only plan to create a few pages, then Jekyll may be excessive, but if you intend to continually add content to your site, it can be very useful. For example, you can create new pages simply by writing in markdown and running the build commands, or use templating and html includes to create different views for your content. Updating dependencies is also straightforward, as you can do so in one place. Additionally, Jekyll allows you to easily automate tasks such as compiling ES6 code, converting Sass files, bundling and minifying files, compressing images, and more through its build and deploy commands. Overall, Jekyll is a good choice for small sites that don't require a full content management system, but are more complex than a single landing page.
 
 ### Setup Algolia account
 

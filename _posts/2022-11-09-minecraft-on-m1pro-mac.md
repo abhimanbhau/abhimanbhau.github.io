@@ -104,7 +104,7 @@ Here in deep dark, fps averaged about 470. These are phenomenal results for a po
 
 Finally I had to try shaders. 
 
-I most of the optifine shaders works as it is on iris/Sodium combo. All the well known shaders worked without a flaaw on Mac but debug console was filled with unimplemented shader methods errors. In those cases the rendering fell back onto software leading to massive performance hit. 
+Most of the optifine shaders works as it is on iris/Sodium combo. All the well known shaders worked without a flaw on Mac but debug console was filled with unimplemented shader methods errors. In those cases the rendering fell back onto software leading to massive performance hit.
 
 I found Complementary shaders to be good balance between quality and performance.
 
