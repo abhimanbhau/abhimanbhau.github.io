@@ -1,8 +1,8 @@
 ---
 title: Migrate Ubuntu based Cloud9 instance across AWS accounts
 date: 2020-10-20 23:34:00 -0600
-categories: [AWS, EC2, Cloud9, Ubuntu, /dev/sda1, ubuntu cloud9, cross account]
-tags: [AWS, ec2, cloud9, ubuntu cloud9, Amazon, howto]
+categories: [AWS]
+tags: [AWS, ec2, cloud9, ubuntu cloud9, Amazon, howto, EC2, Cloud9, Ubuntu, ubuntu cloud9, cross account]
 toc: true
 seo:
   date_modified: 2020-10-20 23:34:00 -0600
