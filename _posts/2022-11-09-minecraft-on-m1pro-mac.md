@@ -112,7 +112,11 @@ I ran complementary shaders on their highest settings and QHD resolution. These 
 
 ![Shader on QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png "Shader on QHD")
 
+Yes absolutely. As shown above, you can have a great experience on vanilla minecraft and even better experience using the mods listed above. Also, the descent experience while using shaders is cherry on top.
 
+### Is minecraft optimized for M1 ARM macbook?
+
+Minecraft Java edition is written in well, Java. Java being cross platform and JDK being available for long time it was already possible to run Minecraft on M1 ARM mac since the launch. However, Minecraft also has a lot of native code mainly graphics rendering. This however caused severe performance penalty which has improved over the past few months.
 
 ## Conclusion
 

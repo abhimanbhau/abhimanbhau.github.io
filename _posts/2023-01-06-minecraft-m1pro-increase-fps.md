@@ -2,7 +2,7 @@
 title: Increase Minecraft FPS on Macbook Pro M1 chip
 date: 2023-01-06 22:00:00 -0600
 categories: [gaming]
-tags: [minecraft, gaming, macbook, m1 pro, m1 mac, m1 chip, mac gaming, m1 pro gaming performance, increase m1 mac fps, increase minecraft fps m1 macbook]
+tags: [minecraft, gaming, macbook, m1 pro, m1 mac, m1 chip, mac gaming, m1 pro gaming performance, increase m1 mac fps, increase minecraft fps m1 macbook, does m1 mac run minecraft]
 toc: true
 seo:
   date_modified: 2023-01-07 22:00:00 -0600
@@ -96,5 +96,13 @@ I was eager to try out shaders, and was pleased to find that most Optifine shade
 After experimenting with different shaders, I found Complementary shaders to be a good balance between quality and performance. I tested these shaders at their highest settings and with a QHD resolution, and the results were as follows.
 
 ![Shader on QHD](https://res.cloudinary.com/abemurica/image/upload/v1671590737/minecraft_mac/2022-11-09_18.18.38_fpcugp.png "Shader on QHD")
+
+### Can you play Minecraft on M1 Mac?
+
+Yes absolutely. As shown above, you can have a great experience on vanilla minecraft and even better experience using the mods listed above. Also, the descent experience while using shaders is cherry on top.
+
+### Is minecraft optimized for M1 ARM macbook?
+
+Minecraft Java edition is written in well, Java. Java being cross platform and JDK being available for long time it was already possible to run Minecraft on M1 ARM mac since the launch. However, Minecraft also has a lot of native code mainly graphics rendering. This however caused severe performance penalty which has improved over the past few months.
 
 {% include gallery caption="Minecraft gaming on M1 Pro mac" %}
