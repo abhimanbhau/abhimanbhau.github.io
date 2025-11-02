@@ -1,86 +1,76 @@
 +++
 title = "About Me"
-description = "Software Engineer at LinkedIn"
+description = "Senior Site Reliability & Platform Engineer"
 date = "2025-11-01"
 author = "Abhiman Kolte"
 +++
 
-## Introduction
+## About Me
 
-I currently work as a Software Engineer at LinkedIn.
+I am a highly accomplished and results-driven Senior Site Reliability & Platform Engineer with over 8 years of experience architecting scalable cloud-native systems and leading high-performing engineering teams. My expertise spans Kubernetes, AWS infrastructure automation, and GenAI/ML platform reliability. I have a proven track record of maintaining 99.99% service availability, significantly reducing Change Failure Rate (CFR) by 60%, and accelerating deployment velocity for over 100 engineering teams. I possess deep expertise in observability, incident response, Infrastructure as Code (IaC), and applying robust software engineering principles to achieve operational excellence.
 
-### Work Experience
+## Professional Experience
 
-#### LinkedIn Corporation
+### LinkedIn
+**Senior Site Reliability & Platform Engineer** | June 2022 - Present | Sunnyvale, CA
 
-- Build tooling to improve monitoring, observability and reliability of backend system.
-- Improve availability of latency sensitive backend systems.
-- Contantly improve the backend architecture by leveraging the monitoring data obtained by the tooling.
+*   **Architected and owned the Automated Stability Guard** from concept to production MVP in 4 weeks, implementing SLI and SLO framework and error budget management that maintained **99.99% service availability** while reducing Change Failure Rate by **60%**, from 50 to under 20 SEVs per 10k deployments.
+*   **Designed and delivered a GenAI-powered Go/gRPC incident detection platform**, building microservices and APIs that drove a **40% MTTD reduction** for production threats via automated, real-time observability dashboards.
+*   **Led end-to-end software delivery of a unified test platform** using Playwright and GitOps automation, creating a self-service Internal Developer Platform (IDP) that **improved release velocity for more than 100 teams** by providing standardized golden path templates for CI/CD and accelerating feature development.
+*   **Defined the 18-month technical roadmap** for platform reliability, securing senior leadership buy-in to invest in initiatives that improved infrastructure scalability and observability company-wide.
+*   **Architected and shipped RESTful APIs and microservices** for key platform features, collaborating with product teams to deliver new functionality for 50M+ daily users.
 
-#### AMAZON LAB126
+### Amazon Lab126 Inc.
+**System Development Engineer** | Nov 2020 - June 2022 | Sunnyvale, CA
 
-> SYSTEM DEVELOPMENT ENGINEER, Nov 2020 - Present | Sunnyvale, CA
+*   **Owned the architectural migration** of a monolithic Java system to a microservices platform, ensuring a **99.99% availability SLO** was maintained post-launch through a comprehensive observability framework and automated monitoring.
+*   **Engineered an internal developer platform** by developing and maintaining core Java and Python microservices, which **reduced new pipeline onboarding from 8 weeks to 4 weeks** through self-service infrastructure automation and standardized deployment patterns.
+*   **Implemented SLI and SLO frameworks** with automated alerting and incident response procedures, establishing platform reliability standards that became the blueprint for all new distributed infrastructure operations.
 
-- Design, develop and maintain AWS backend infrastructure for Amazon Lab126's security org.
-- Design automation test suites for Amazon's multiple device families(Android, Linux, freeRTOS) and maintain them.
-- Migrated existing legacy tools to native AWS.
-- Assist peers with design reviews and guidance for new projects.
-- Improved Amazon Lab126's security infrastructure annual uptime from ~98% to 99.93%.
-- Continuously improve the AWS backend reliability and scalability but leveraging new services and improving the architecture.
-- Reduced operational costs of the infrastructure by ~20% over the past year.
-- Migrate monolithic applications to serverless and containerized architecture.
+### Amazon Web Services
+**Platform and Reliability Engineer** | Jan 2020 - Nov 2020 | Dallas, TX
 
-#### AMAZON WEB SERVICES
+*   **Accelerated platform adoption** for thousands of internal AWS developers by architecting high-level Python SDK abstractions, **reducing infrastructure complexity and development cycle time**.
+*   **Designed and shipped new API features and automation tools** as part of the internal developer experience team, supporting both reliability and product velocity goals.
+*   **Enhanced service availability** across AWS infrastructure by engineering proactive client-side IAM validation for the internal S3 client, **eliminating an entire class of permission-related runtime errors**.
 
-> CLOUD ENGINEER, AWS LAMBDA Jan 2020 - Oct 2020 | Dallas, TX
+## Technical Skills
 
-- Perform analysis on enterprise customer issues with AWS Lambda and work with them to resolve the issues.
-- Involved in building security model, VPC, Elastic IP for databases on AWS Cloud platform.
-- Monitor and respond to potential breakdowns in 24/7/365 web services.
-- Experienced in Automating, Configuring and deploying instances on AWS, Azure environments and Data centers, also familiar with EC2, Cloud watch, Cloud Formation and managing security groups on AWS.
-- Write python scripts to manage AWS resources from API calls using BOTO SDK and also worked with AWS CLI.
-- In depth Knowledge of AWS cloud service like Compute, Network, Storage and Identity & access management.
-- Hands-on Experience in configuration of Network architecture on AWS with VPC, Subnets, Internet gateway, NAT, Route table.
-- Technologies used: **AWS EC2, AWS Lambda, Bash scripting, AWS API Gateway, Networking, AWS CLI.**
+### Software Engineering
+*   Software Architecture, Distributed Systems Design, API Development & Versioning, Microservices, End-to-End Feature Delivery
+*   Unit & Integration Testing, Test-Driven Development (TDD), Test Automation Frameworks (JUnit, pytest)
+*   Agile Development, Software Performance Tuning, Code Review Best Practices
 
-#### NISUM TECHNOLOGIES INC.
+### Site Reliability Engineering
+*   SLI/SLO Management, Error Budget Management, Incident Response, Capacity Planning
+*   Service Mesh (Istio), Platform Engineering, Production Readiness
 
-> SOFTWARE ENGINEERING INTERN June 2018 – August 2018 | Fremont, CA
+### Cloud and Infrastructure
+*   AWS (8+ years), Kubernetes, Docker, Terraform, CDK, Serverless, Multi-Region Design
 
-- Worked on developing REST APIs for client data warehouse.
-- Implemented caching using EhCache which resulted in **65%** reduction in API response time.
-- Performed unit testing on the code by writing JUnit test cases.
-- Performed performance testing using JMeter on the REST APIs.
-- Technologies used: **Java, Eclipse, Maven, REST, Java SpringBoot, JUnit, JMeter**
+### Observability and Monitoring
+*   Prometheus, Grafana, OpenTelemetry (OTel), Distributed Tracing, Performance Monitoring
 
-#### DEUTSCHE BANK INDIA
+### DevOps and Automation
+*   Jenkins, GitLab CI, ArgoCD, Helm, GitOps, CI/CD Pipelines, Infrastructure Automation
 
-> QA ANALYST INTERN June 2015 – December 2015 | Pune, India
+### Programming Languages
+*   Python (8+ years), Go, Java, JavaScript, Bash/zsh Scripting
 
-- Performed manual data testing of data warehouse within the bank infrastructure.
-- Developed a test automation framework using HP QTP to automate testing of windows applications.
-- Designed a data driven test automation framework in Java and Selenium web driver to test newer web applications.
-- Combined use of these frameworks improved testing efficiency of the team by **40%** over manual testing.
-- Technologies used: **Java, IntelliJ Idea, Selenium Web-driver, HP QTP, JIRA, Test Automation**
+### Databases and Emerging Tech
+*   MySQL, DynamoDB, PostgreSQL, GenAI Guardrails, Vector Databases
 
-### Education
+## Education
 
-#### SANTA CLARA UNIVERSITY | MASTERS IN COMPUTER SCIENCE
+*   **Santa Clara University:** M.S. Computer Science, 2019
+*   **Pune University:** B.S. Computer Science, 2016
 
-> June 2019 | Santa Clara, CA
+## Connect
 
-#### PUNE UNIVERSITY | BACHELORS IN COMPUTER SCIENCE
+*   **GitHub:** [github.com/abhimanbhau](https://github.com/abhimanbhau)
+*   **LinkedIn:** [linkedin.com/in/abhimank](https://linkedin.com/in/abhimank)
+*   **LeetCode:** [leetcode.com/abhimanbhau](https://leetcode.com/abhimanbhau/)
 
-> December 2016 | Pune, India
+## Contact
 
-### Social
-
-[Github://](https://github.com/abhimanbhau)
-
-[LinkedIn://](http://linkedin.com/in/abhimank)
-
-[Leetcode://](https://leetcode.com/abhimanbhau/)
-
-### Contact
-
-> Email: akolte@icloud.com
+*   **Email:** akolte@icloud.com

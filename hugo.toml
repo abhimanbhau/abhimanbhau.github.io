@@ -18,7 +18,13 @@ style = "github-dark"
   info = "Software Engineer at LinkedIn"
   description = "Abhiman Kolte's personal website"
   keywords = "blog, developer, personal, software engineer, aws, gcp, java, python"
-  avatarurl = "images/bio-photo.jpg"
+  tagline = "Architecting scalable cloud-native systems and leading high-performing engineering teams."
+  highlights = [
+    "Maintained 99.99% service availability",
+    "Reduced Change Failure Rate by 60%",
+    "Accelerated deployment velocity and safety for over 100 engineering teams"
+  ]
+  avatarurl = "images/profile.jpg"
   license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
   commit = "https://github.com/abhimanbhau/abhimanbhau.github.io/tree/"
 
