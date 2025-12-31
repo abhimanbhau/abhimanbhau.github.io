@@ -70,7 +70,3 @@ I am a highly accomplished and results-driven Senior Site Reliability & Platform
 *   **GitHub:** [github.com/abhimanbhau](https://github.com/abhimanbhau)
 *   **LinkedIn:** [linkedin.com/in/abhimank](https://linkedin.com/in/abhimank)
 *   **LeetCode:** [leetcode.com/abhimanbhau](https://leetcode.com/abhimanbhau/)
-
-## Contact
-
-*   **Email:** akolte@icloud.com
