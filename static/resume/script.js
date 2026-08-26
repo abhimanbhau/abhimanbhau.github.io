@@ -16,7 +16,7 @@
     { t: "cmd", text: "./init_pipeline.sh --candidate=abhiman-kolte --env=production" },
     { t: "ok", text: "[OK] identity verified" },
     { t: "ok", text: "[OK] 8+ years engineering experience" },
-    { t: "ok", text: "[OK] change-safety platform gating 9 production systems" }
+    { t: "ok", text: "[OK] infrastructure, reliability & production engineering" }
   ];
 
   var bootEl = document.getElementById("bootLines");
