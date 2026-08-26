@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>Abhiman Kolte — Resume</title>
+<meta name="description" content="Staff Software Engineer — Reliability Infrastructure &amp; Distributed Systems. Interactive resume.">
+<meta name="author" content="Abhiman Kolte">
+<link rel="canonical" href="https://abhimankolte.com/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Abhiman Kolte — Resume">
+<meta property="og:description" content="Staff Software Engineer — Reliability Infrastructure &amp; Distributed Systems">
+<meta property="og:url" content="https://abhimankolte.com/">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=Titillium+Web:wght@400;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<link rel="stylesheet" href="/resume/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abhiman Kolte",
+  "jobTitle": "Staff Software Engineer — Reliability Infrastructure & Distributed Systems",
+  "url": "https://abhimankolte.com/",
+  "email": "mailto:abhiman@abhimankolte.com",
+  "sameAs": ["https://linkedin.com/in/abhimank", "https://github.com/abhimanbhau", "https://leetcode.com/abhimanbhau/"]
+}
+</script>
+</head>
+<body>
+
+<noscript>
+  <div style="max-width:700px;margin:40px auto;padding:0 20px;font-family:sans-serif;color:#ddd;background:#06090a;">
+    <h1>Abhiman Kolte</h1>
+    <p>Staff Software Engineer — Reliability Infrastructure &amp; Distributed Systems</p>
+    <p>Staff Software Engineer in Production Engineering with 6+ years building reliability and developer infrastructure at LinkedIn and Amazon. Created LinkedIn's change safety platform from scratch — a Go and gRPC system now gating nine change agent systems, including the central deployment pipeline — cutting change failure rate by over 60%. Also owns SLI/SLO practice and capacity planning for the org.</p>
+    <p><a href="/files/Abhiman_Kolte_Resume.pdf" style="color:#46e08a;">Download résumé (PDF)</a></p>
+  </div>
+</noscript>
+
+<div class="crt-overlay" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<header class="topnav">
+  <span class="brand">abhiman<span style="color:var(--fg-faint)">@</span><strong>career</strong><span style="color:var(--fg-faint)">:~$</span></span>
+  <nav class="links">
+    <a href="/files/Abhiman_Kolte_Resume.pdf">download pdf</a>
+    <a href="/post/">blog</a>
+    <a href="/about/">about</a>
+  </nav>
+</header>
+
+<!-- ===================== HERO: scroll-scrubbed boot -> metrics ===================== -->
+<section class="hero-scrub" id="heroScrub">
+  <div class="hero-sticky">
+
+    <div class="hero-layer" id="heroTerminal">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="terminal-dot r"></span>
+          <span class="terminal-dot y"></span>
+          <span class="terminal-dot g"></span>
+          <span class="terminal-title">abhiman@career — zsh — 80×24</span>
+        </div>
+        <div class="terminal-body">
+          <div id="bootLines" aria-live="polite"></div>
+          <div class="uptime-line" id="uptimeLine" style="opacity:0;">
+            IN_PROD_SINCE: 2020-01-06 &nbsp;·&nbsp; UPTIME: <span class="val" id="uptimeVal">—</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue">scroll to run pipeline ▾</div>
+    </div>
+
+    <div class="hero-layer metrics-layer" id="heroMetrics" style="opacity:0;">
+      <div class="metrics-kicker">// career_impact.json</div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value" data-numeric="-60" data-prefix="" data-suffix="%" data-final="-60%">0</div>
+          <div class="metric-label">change failure rate</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-final="20min → 30s">0</div>
+          <div class="metric-label">on-call triage time</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-numeric="9" data-prefix="" data-suffix="" data-final="9">0</div>
+          <div class="metric-label">change systems gated</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-numeric="900" data-prefix="" data-suffix="+" data-final="900+">0</div>
+          <div class="metric-label">services onboarded</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<main class="wrap">
+
+  <!-- ===================== SUMMARY ===================== -->
+  <section id="manifest" class="reveal">
+    <div class="section-head">
+      <span class="tag">cat SUMMARY.md</span>
+      <h2>Abhiman Kolte</h2>
+      <p>Staff Software Engineer — Reliability Infrastructure &amp; Distributed Systems &middot; SF Bay Area, CA</p>
+    </div>
+    <p style="max-width:680px;margin:0 auto;text-align:center;color:var(--fg-dim);font-size:14.5px;line-height:1.75;">
+      Staff Software Engineer in Production Engineering with 6+ years building reliability and developer
+      infrastructure at LinkedIn and Amazon. Created LinkedIn's change safety platform from scratch — a Go
+      and gRPC system now gating nine change agent systems, including the central deployment pipeline —
+      cutting change failure rate by over 60%. Also owns SLI/SLO practice and capacity planning for the org.
+    </p>
+  </section>
+
+  <!-- ===================== PIPELINE (experience) ===================== -->
+  <section id="pipeline">
+    <div class="section-head reveal">
+      <span class="tag">.github/workflows/career.yml</span>
+      <h2>CI/CD — Career Pipeline</h2>
+      <p>Click <strong style="color:var(--accent)">run deploy</strong> on any stage to expand the job log.</p>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipeline-rail" aria-hidden="true"></div>
+
+      <!-- LinkedIn -->
+      <div class="job reveal is-active" data-job-index="0">
+        <div class="job-node" aria-hidden="true"></div>
+        <div class="job-card">
+          <div class="job-head">
+            <div>
+              <div class="job-id">#a1e4c9d</div>
+              <div class="job-company">LinkedIn</div>
+              <div class="job-role">Staff Software Engineer, Production Engineering <span style="color:var(--fg-faint)">(promoted from Senior Software Engineer)</span></div>
+            </div>
+            <div class="job-meta">
+              Sunnyvale, CA<br>
+              Jun 2022 — Present
+              <div class="status-pill"><span class="dot"></span>ACTIVE &middot; 99.99% uptime</div>
+            </div>
+          </div>
+
+          <div class="deploy-cmd">
+            <span class="cmd-text"><span class="prompt">$</span> deploy --target=linkedin --role="Staff Software Engineer, Production Engineering"</span>
+            <button class="deploy-btn" type="button" data-deploy-btn aria-expanded="false">▶ run deploy</button>
+          </div>
+
+          <div class="stages">
+            <span class="stage-chip" data-stage="build">BUILD</span>
+            <span class="stage-chip" data-stage="test">TEST</span>
+            <span class="stage-chip" data-stage="deploy">DEPLOY</span>
+          </div>
+
+          <div class="projects-wrap">
+            <div class="projects-inner">
+              <div class="project">
+                <span class="project-title">Seatbelt — change safety platform for production deployments</span><span class="project-stack">Go · gRPC · Temporal</span>
+                <ul>
+                  <li>Created LinkedIn's change safety platform from scratch. Blocks production changes during system instability to prevent cascading failures — cut change failure rate by over 60% org-wide.</li>
+                  <li>Engineered the policy engine as a gRPC service sustaining thousands of requests/sec under a strict sub-300ms budget, inline in the critical path of every gated change.</li>
+                  <li>Designed a pluggable validator architecture so distributed teams author and own custom safety checks, moving safety policy to the engineers closest to each risk.</li>
+                  <li>Integrated the platform across nine change agent systems, including the central deployment pipeline, then led the migration off the legacy Deployment Policy Engine to unify safety standards org-wide.</li>
+                  <li>Built the rollout orchestrator on Temporal for durable, replay-safe execution across thousands of concurrent workflows, advancing one colo at a time with every transition re-checking the policy engine first.</li>
+                  <li>Fed centralized alerting and OpenTelemetry signals into that decision, so a critical alert on the deploying service pauses its rollout mid-flight even when the broader environment is healthy — catching regressions the deployment itself introduced.</li>
+                  <li>Eliminated race conditions during concurrent lock acquisition across independent deployment pipelines with a two-phase coordination protocol: a sync pre-check at workflow start plus async conflict detection at acquisition, inside a 5 second budget.</li>
+                  <li>Shipped a fail-open architecture with independent kill switches and a shadow-enforce ramp, so platform outages degrade gracefully rather than blocking deployments.</li>
+                </ul>
+              </div>
+              <div class="project">
+                <span class="project-title">Functional test automation platform</span><span class="project-stack">Playwright · API probing</span>
+                <ul>
+                  <li>Built the platform behind automated functional verification at LinkedIn, covering Playwright web E2E flows and an API prober. Onboarded 900+ services — over half the microservice fleet — to automated API testing, and 50+ business-critical services to frontend testing.</li>
+                  <li>Made the suites callable at every stage of the change lifecycle: ad hoc before a pull request, as a pre-deploy gate, on a schedule for continuous monitoring, and inside canary — where a service's own tests run against the single host carrying the new version and trigger automatic rollback on failure.</li>
+                </ul>
+              </div>
+              <div class="project">
+                <span class="project-title">Incident triage automation — agentic evidence collection &amp; RCA</span>
+                <ul>
+                  <li>Delivered a production agentic triage service that cut on-call investigation from 15–20 minutes down to under 30 seconds per failure.</li>
+                  <li>Built a multi-source evidence fusion layer correlating synthetic monitoring, L1 proxy logs (KQL), trace spans, and raw job logs into a grounded root-cause payload — keeping the endpoint deterministic and AI disabled for an orchestrating agent to call, with the retrieval strategy behind each decision recorded so every conclusion stays auditable.</li>
+                </ul>
+              </div>
+              <div class="project">
+                <span class="project-title">SRE practice and tooling</span>
+                <ul>
+                  <li>Own SLI/SLO management, capacity planning, and service availability, running infrastructure at scale on Kubernetes and Terraform.</li>
+                  <li>Wrote Confetti, a benchmarking library that profiles the performance impact of configuration changes inside CI/CD pipelines.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Amazon Lab126 -->
+      <div class="job reveal" data-job-index="1">
+        <div class="job-node" aria-hidden="true"></div>
+        <div class="job-card">
+          <div class="job-head">
+            <div>
+              <div class="job-id">#9f7b2a1</div>
+              <div class="job-company">Amazon Lab126</div>
+              <div class="job-role">Software Development Engineer</div>
+            </div>
+            <div class="job-meta">
+              Sunnyvale, CA<br>
+              Nov 2020 — Jun 2022
+              <div class="status-pill"><span class="dot"></span>COMPLETE &middot; 99.99% uptime</div>
+            </div>
+          </div>
+
+          <div class="deploy-cmd">
+            <span class="cmd-text"><span class="prompt">$</span> deploy --target=amazon-lab126 --role="Software Development Engineer"</span>
+            <button class="deploy-btn" type="button" data-deploy-btn aria-expanded="false">▶ run deploy</button>
+          </div>
+
+          <div class="stages">
+            <span class="stage-chip" data-stage="build">BUILD</span>
+            <span class="stage-chip" data-stage="test">TEST</span>
+            <span class="stage-chip" data-stage="deploy">DEPLOY</span>
+          </div>
+
+          <div class="projects-wrap">
+            <div class="projects-inner">
+              <div class="project">
+                <span class="project-title">Monolith → microservices migration, core device platform</span>
+                <ul>
+                  <li>Owned architecture and delivery of a monolith to microservices migration for a core device platform, decomposing coupled subsystems into independently deployable services with defined API contracts, distributed tracing, and automated observability — holding 99.99% availability post-launch.</li>
+                  <li>Cut new pipeline onboarding from 8 weeks to 4 through self-service infrastructure automation and standardized deployment patterns.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AWS -->
+      <div class="job reveal" data-job-index="2">
+        <div class="job-node" aria-hidden="true"></div>
+        <div class="job-card">
+          <div class="job-head">
+            <div>
+              <div class="job-id">#0c3d8e5</div>
+              <div class="job-company">Amazon Web Services</div>
+              <div class="job-role">Software Development Engineer</div>
+            </div>
+            <div class="job-meta">
+              Dallas, TX<br>
+              Jan 2020 — Nov 2020
+              <div class="status-pill"><span class="dot"></span>COMPLETE &middot; 100% uptime</div>
+            </div>
+          </div>
+
+          <div class="deploy-cmd">
+            <span class="cmd-text"><span class="prompt">$</span> deploy --target=amazon-web-services --role="Software Development Engineer"</span>
+            <button class="deploy-btn" type="button" data-deploy-btn aria-expanded="false">▶ run deploy</button>
+          </div>
+
+          <div class="stages">
+            <span class="stage-chip" data-stage="build">BUILD</span>
+            <span class="stage-chip" data-stage="test">TEST</span>
+            <span class="stage-chip" data-stage="deploy">DEPLOY</span>
+          </div>
+
+          <div class="projects-wrap">
+            <div class="projects-inner">
+              <div class="project">
+                <span class="project-title">Internal developer tooling</span>
+                <ul>
+                  <li>Shipped Python SDK abstractions for internal AWS developer tooling used by thousands of engineers.</li>
+                  <li>Built client-side permission validation for the object storage SDK that eliminated a class of runtime authorization failures.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills">
+    <div class="section-head reveal">
+      <span class="tag">kubectl get services</span>
+      <h2>Service Mesh — Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-head"><span class="dot"></span>distributed-systems.service &nbsp;<span style="color:var(--fg-faint)">RUNNING</span></div>
+        <div class="skill-chips">
+          <span class="skill-chip">Go</span><span class="skill-chip">gRPC / Protobuf</span><span class="skill-chip">Temporal</span><span class="skill-chip">Microservices</span><span class="skill-chip">API Design</span><span class="skill-chip">Concurrency</span><span class="skill-chip">Distributed Locking</span><span class="skill-chip">Idempotent APIs</span><span class="skill-chip">Deterministic Replay</span><span class="skill-chip">Multi-region / Multi-colo</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-head"><span class="dot"></span>reliability-eng.service &nbsp;<span style="color:var(--fg-faint)">RUNNING</span></div>
+        <div class="skill-chips">
+          <span class="skill-chip">Deployment &amp; Change Safety</span><span class="skill-chip">SLI/SLO Management</span><span class="skill-chip">Error Budgets</span><span class="skill-chip">Capacity Planning</span><span class="skill-chip">Incident Response</span><span class="skill-chip">On-call</span><span class="skill-chip">Postmortems</span><span class="skill-chip">Blast Radius Containment</span><span class="skill-chip">Progressive Delivery</span><span class="skill-chip">Fail-open Design</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-head"><span class="dot"></span>infra-observability.service &nbsp;<span style="color:var(--fg-faint)">RUNNING</span></div>
+        <div class="skill-chips">
+          <span class="skill-chip">Linux</span><span class="skill-chip">Kubernetes</span><span class="skill-chip">Docker</span><span class="skill-chip">Terraform</span><span class="skill-chip">Prometheus</span><span class="skill-chip">Grafana</span><span class="skill-chip">OpenTelemetry</span><span class="skill-chip">Distributed Tracing</span><span class="skill-chip">KQL / Kusto</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-head"><span class="dot"></span>ai-for-reliability.service &nbsp;<span style="color:var(--fg-faint)">RUNNING</span></div>
+        <div class="skill-chips">
+          <span class="skill-chip">Agentic Triage</span><span class="skill-chip">Evidence-grounded RAG</span><span class="skill-chip">LLM Tool Integration</span><span class="skill-chip">GenAI Guardrails</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-head"><span class="dot"></span>languages.service &nbsp;<span style="color:var(--fg-faint)">RUNNING</span></div>
+        <div class="skill-chips">
+          <span class="skill-chip">Go</span><span class="skill-chip">Python</span><span class="skill-chip">Java</span><span class="skill-chip">JavaScript</span><span class="skill-chip">Bash</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="education">
+    <div class="section-head reveal">
+      <span class="tag">./init_pipeline.sh --bootstrap</span>
+      <h2>Education</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="degree">M.S. Computer Science</div>
+        <div class="school">Santa Clara University</div>
+        <div class="year">2019</div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="degree">B.S. Computer Science</div>
+        <div class="school">Pune University</div>
+        <div class="year">2016</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="contact-block reveal">
+      <div class="contact-cmd">
+        <span class="prompt">$</span> contact --format=all<br>
+        <span style="color:var(--fg-dim)">email:</span>
+        <a href="mailto:abhiman@abhimankolte.com" id="emailLink">abhiman@abhimankolte.com</a>
+        <button type="button" id="copyEmailBtn" title="Copy email" style="background:none;border:none;color:var(--fg-faint);cursor:pointer;font-family:var(--mono);">⧉</button>
+        <span class="copy-note" id="copyNote">copied ✓</span>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/abhimanbhau" target="_blank" rel="noopener">github</a>
+        <a href="https://linkedin.com/in/abhimank" target="_blank" rel="noopener">linkedin</a>
+        <a href="https://leetcode.com/abhimanbhau/" target="_blank" rel="noopener">leetcode</a>
+      </div>
+      <div>
+        <a class="pdf-cta" href="/files/Abhiman_Kolte_Resume.pdf">⇩ download résumé (pdf)</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    build #20260825 &middot; deployed from main &middot; © <span id="copyrightYear">2026</span> Abhiman Kolte
+  </footer>
+
+</main>
+<script src="/resume/script.js" defer></script>
+</body>
+</html>
