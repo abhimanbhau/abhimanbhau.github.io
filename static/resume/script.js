@@ -15,7 +15,7 @@
     { t: "out", text: "abhiman-kolte — staff software engineer, production engineering" },
     { t: "cmd", text: "./init_pipeline.sh --candidate=abhiman-kolte --env=production" },
     { t: "ok", text: "[OK] identity verified" },
-    { t: "ok", text: "[OK] 6+ years reliability infra experience loaded" },
+    { t: "ok", text: "[OK] 8+ years engineering experience loaded" },
     { t: "ok", text: "[OK] change-safety platform gating 9 systems : ONLINE" },
     { t: "out", text: "connecting to career_pipeline ..." }
   ];
