@@ -39,6 +39,10 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
+  # Cookie-gated Google Analytics. GA only loads after a visitor clicks
+  # "Accept" in assets/js/consent.js — set the real GA4 ID there.
+  customJS = ["js/consent.js"]
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -71,3 +75,7 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "about/"
+[[menu.main]]
+  name = "Resume"
+  weight = 3
+  url = "resume/"
