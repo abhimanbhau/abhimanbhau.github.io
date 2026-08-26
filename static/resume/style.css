@@ -171,15 +171,6 @@ a:hover { text-decoration: underline; }
 }
 @keyframes blink { 50% { opacity: 0; } }
 
-.uptime-line {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px dashed var(--line);
-  font-size: 13px;
-  color: var(--fg-dim);
-}
-.uptime-line .val { color: var(--accent); font-weight: 600; }
-
 .scroll-cue {
   position: absolute;
   bottom: 28px;

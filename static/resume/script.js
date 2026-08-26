@@ -15,13 +15,11 @@
     { t: "out", text: "abhiman-kolte — staff software engineer, production engineering" },
     { t: "cmd", text: "./init_pipeline.sh --candidate=abhiman-kolte --env=production" },
     { t: "ok", text: "[OK] identity verified" },
-    { t: "ok", text: "[OK] 8+ years engineering experience loaded" },
-    { t: "ok", text: "[OK] change-safety platform gating 9 systems : ONLINE" },
-    { t: "out", text: "connecting to career_pipeline ..." }
+    { t: "ok", text: "[OK] 8+ years engineering experience" },
+    { t: "ok", text: "[OK] change-safety platform gating 9 production systems" }
   ];
 
   var bootEl = document.getElementById("bootLines");
-  var uptimeLine = document.getElementById("uptimeLine");
 
   function renderLineInstant(entry) {
     var div = document.createElement("div");
@@ -45,14 +43,12 @@
   function typeBoot() {
     if (reduced || !bootEl) {
       bootScript.forEach(renderLineInstant);
-      finishBoot();
       return;
     }
 
     var i = 0;
     function nextLine() {
       if (i >= bootScript.length) {
-        finishBoot();
         return;
       }
       var entry = bootScript[i++];
@@ -96,39 +92,8 @@
     })();
   }
 
-  function finishBoot() {
-    if (uptimeLine) {
-      uptimeLine.style.transition = "opacity 0.6s ease";
-      uptimeLine.style.opacity = "1";
-    }
-    startUptimeClock();
-  }
-
   /* ============================================================
-     2. Live uptime clock
-     ============================================================ */
-  function startUptimeClock() {
-    var start = new Date("2020-01-06T09:00:00-08:00").getTime();
-    var el = document.getElementById("uptimeVal");
-    if (!el) return;
-
-    function tick() {
-      var diff = Date.now() - start;
-      var s = Math.floor(diff / 1000);
-      var days = Math.floor(s / 86400);
-      var years = Math.floor(days / 365.25);
-      var remDays = Math.floor(days - years * 365.25);
-      var hh = String(Math.floor((s % 86400) / 3600)).padStart(2, "0");
-      var mm = String(Math.floor((s % 3600) / 60)).padStart(2, "0");
-      var ss = String(s % 60).padStart(2, "0");
-      el.textContent = years + "y " + remDays + "d " + hh + ":" + mm + ":" + ss;
-    }
-    tick();
-    if (!reduced) setInterval(tick, 1000);
-  }
-
-  /* ============================================================
-     3. Scroll-scrubbed hero: terminal -> metrics
+     2. Scroll-scrubbed hero: terminal -> metrics
      ============================================================ */
   var heroScrub = document.getElementById("heroScrub");
   var heroTerminal = document.getElementById("heroTerminal");
@@ -243,7 +208,7 @@
           if (idx === chips.length - 1) {
             card.classList.add("is-open");
             btn.setAttribute("aria-expanded", "true");
-            btn.textContent = "▲ rollback";
+            btn.textContent = "▲ collapse";
             btn.disabled = false;
           }
         }, idx * delay);
